@@ -1,7 +1,12 @@
-public class Hello2
-{
-    public static void main(String[] args){
-        System.out.println("두번째 생성한 파일 일껄?");
+public class Hello2{
+    public static void main(String[] args) {
+        String var1 = "작은 따옴표는 \' 모양입니다,";
+        String var2 = "큰 따옴표는 \" 모양입니다,";
+
+
+        System.out.println(var1);
+        System.out.println(var2);
+
     }
 
 }
